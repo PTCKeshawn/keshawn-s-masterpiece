@@ -1,0 +1,171 @@
+Navigations Commands List:  
+
+- ls 
+
+- cd 
+
+- pwd                                                                                                                        
+
+ - mkdir 
+
+ - rmdir 
+
+Command Details:                                                                                                             
+
+  - `ls’ 
+
+ - Purpose: Lists the contents of a directory.  
+
+- Usage: `ls` for basic listing, `ls -l` for detailed listing, `ls -a` to include hidden files.                              
+
+ - Notes: Essential for quickly viewing what's in the current directory.                                                                                                                                     
+
+ - `cd`                                                                                                                       
+
+ - Purpose: Changes the current directory.                                                                                    
+
+- Usage:`cd ./Name_of_directory` to move to a specific directory, `cd ..` to move up one directory level, or `cd ~` to return to home directory  
+
+ - Notes: Most commonly used for navigating through the filesystem.                                                                                                                                
+
+ - `pwd`                                                                                                                     
+
+ - Purpose: Prints the current directory path.                                                                                
+
+ - Usage: `pwd` to display the full path of the current directory.                                                            
+
+ - Notes: Useful for confirming your current location in the filesystem.                                                                                                                             
+
+ - `mkdir`                                                                                                                    
+
+ - Purpose: Creates a new directory.                                                                                          
+
+ - Usage: `mkdir [directory name]` to create a new directory in the current location.                                         
+
+ - Notes: Handy for organizing files into new folders.     
+
+ - `rmdir`                                       
+
+ - Purpose: Removes a directory.                                                                                              
+
+ - Usage: `rmdir [directory name]` to delete an empty directory.                                                              
+
+ - Notes: Used for cleaning up and removing unused directories. Note that the directory must be empty.                  
+
+ROM: Stands for Read Only Memory, and it is non volatile. It does not allow you to access data as quick lyas RAM buyt when the PC is shut off it does not lose that data. 
+
+RAM:(Random Access Memory) is volatile memory. Data can be accessed quickly but will be lost when computer is powered off. 
+
+How does data transport through a network? 
+
+When data gets sent over the internet, it is broken up into smaller packets, which get translated into bits. The smaller packets then get routed to their destination through a variety of networking devices such as routers. 
+
+Ethics: the good and bad anything in life 
+
+GIT: 
+
+Git is a distributed version control system used to track changes in source code and coordinate work among multiple developers. Here’s a breakdown of the key concepts: 
+
+1. Version Control: 
+
+Git allows you to record the history of a project over time. 
+
+Each "version" of the project (a commit) is saved with a message, helping developers understand changes. 
+
+2. Distributed: 
+
+Every developer has a complete copy of the project and its history on their local machine. 
+
+This is different from centralized systems where a single server holds the complete project. 
+
+3. Key Concepts: 
+
+Repository (Repo): A folder that Git tracks, containing your project’s files and the version history. 
+
+Commit: A snapshot of your code at a specific point in time, with a message describing the changes. 
+
+Branch: A separate line of development. You can create branches to work on features independently of the main project. 
+
+Merge: Combines changes from different branches. 
+
+Clone: A copy of a Git repository. 
+
+Pull: Fetches changes from a remote repository to your local one. 
+
+Push: Sends your local changes to a remote repository. 
+
+4. Workflows: 
+
+Clone a Repository: Download the project and its history. 
+
+Branching and Merging: Create a branch for a new feature, work on it, then merge it into the main code when complete. 
+
+Committing: After making changes, you "commit" them, which saves them to the project history. 
+
+Pull and Push: Regularly pull changes from a shared repository and push your changes back to keep the project in sync with others. 
+
+5. Why Use Git?: 
+
+Collaboration: Multiple developers can work on the same project without overwriting each other’s work. 
+
+Backup: Every developer has a full copy of the code, making data loss less likely. 
+
+Tracking: Every change is tracked, so you can see what was done, when, and by whom, and roll back to previous versions if necessary. 
+
+Would you like to dive deeper into any particular Git command or concept?  
+
+ 
+
+ 
+
+Bash Scripting 
+
+What is Bash Scripting? 
+
+Bash scripting is like telling the computer what to do by writing a set of instructions in a text file. Think of it like giving a friend a list of steps to follow when doing a task, like making a sandwich. The computer follows these steps to get things done. 
+
+How Does It Work? 
+
+Variables: A variable is like a box where you can store information. You give it a name and put something in it. When you need the information, you just ask for the box! 
+
+If Statements: This is like asking a question. For example, "If it's raining, I'll bring an umbrella. Otherwise, I'll leave it at home." Computers use these "if" questions to make decisions. 
+
+Loops: A loop is when the computer does something over and over again until it's told to stop. It’s like setting an alarm to ring every day until the weekend comes. 
+
+ 
+
+ 
+
+System Monitoring 
+
+What is System Monitoring? 
+
+System monitoring is like keeping an eye on how the computer is feeling and what it’s doing. Just like how doctors check our heartbeat or how much we’re breathing, computers need to have their "health" checked too. Monitoring helps us see if the computer is getting too hot, too busy, or running out of space. 
+
+Tools to Monitor the Computer: 
+
+top: Shows what the computer is working on right now. 
+
+df: Tells you how much space you have left on your computer. 
+
+free: Shows how much memory (or brainpower) the computer has available. 
+
+uptime: Shows how long the computer has been on without taking a break! 
+
+ 
+
+System Security 
+
+What is System Security? 
+
+System security is all about keeping the computer safe from bad guys. Just like how you lock your front door to stop strangers from coming inside, computers need locks too. These locks help make sure only the right people can use or change things. 
+
+How Do We Keep the Computer Safe? 
+
+File Permissions: Think of file permissions like giving people different keys to the same house. Some people can open all doors, but others can only open a few. This helps control who can see, change, or delete important files on the computer. 
+
+User Management: This is about creating accounts for different people who use the computer. It’s like making different profiles on a gaming console, so each player has their own settings. 
+
+Firewalls: A firewall is like a security guard that stands at the computer’s front door, checking if the people (or data) coming in are safe. If they aren’t, the firewall blocks them! 
+
+ 
